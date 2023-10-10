@@ -1,0 +1,468 @@
+@font-face{
+    font-family: Montserrat ;
+    src: url('./View/fonts/Montserrat-VariableFont_wght.ttf');
+}
+@font-face{
+    font-family: Alata;
+    src:url('./View/fonts/Alata-Regular.ttf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    scroll-behavior: smooth;
+}
+
+form input{
+    margin: 10px;
+}
+
+
+.Arrow_continue i {
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color:white;
+    padding: 20px;
+    border-radius:50%;
+}
+
+header{
+    backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    width: 100%;
+    height: 500px;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius: 50px;
+}
+
+.Service{
+    margin-top: 150px;
+    margin-left:40px;
+    margin-right: 40px;
+}
+
+.Image img{
+    width: 546px;
+    height: 556px;
+}
+
+.Footer_message{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.Message p{
+    margin: 50px;
+}
+
+#msg_1{
+    padding: 20px
+}
+
+#msg_2{
+    padding: 20px
+}
+
+#msg_3{
+    position: relative;
+    width: 395px;
+    left: 300px;
+    padding: 20px;
+}
+
+#msg_4 {
+    position: relative;
+    width: 395px;
+    left: 300px;
+    padding: 20px
+}
+
+#msg_5{
+    position: relative;
+    width: 395px;
+    padding: 20px;
+    left: 300px;
+}
+
+.Footer_About{
+    width: 610px;
+    height: 72px;
+    text-align: center;
+}
+
+#send_message{
+    font-size: 50px;
+    fill: #FFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Message p{
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Info_About h3{
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#Message_spam{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 28px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    padding: 50px;
+    line-height: normal;
+}
+.Info_About{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+#Pre-button{
+    width: 281px;
+    height: 64px;
+    border: solid #000;
+    text-decoration: none;
+    color: black;
+}
+
+#img_bot{
+    width: 555px;
+    height: 532px;
+}
+
+.Container{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Arrow_indicator{
+    font-size: 30px;    
+    background-position: center center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 49%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+li{
+    list-style: none;
+    margin: 25px ;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+ul a:hover{
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+    transition: 0.2s;
+    translate: all;
+    transform: translateY(10px);
+}
+
+
+
+.Information{
+    display: flex;
+    flex-direction: row;
+}
+
+
+img{
+    width: 800px;
+    height: 500px;
+}
+
+button{
+    padding: 10px;
+    background-color: white;
+    border-radius: 100px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+}
+
+.Card_Information h3{
+    font-size: 60px;
+    font-family: Alata;
+    width: 550px;
+    margin-bottom: -30px;
+    height: 300px;
+    position: relative;
+    right: -30px;
+}
+
+.Card_Information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 2%;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.box label{
+    font-size: 45px;
+    font-family: Alata;
+    color: rgb(122, 122, 122);
+}
+
+#box_1 i{
+    color: #FFA4B3;
+    font-size: 135.191px;
+}
+
+#box_2 i{
+    color: #E48DDE;
+    font-size: 135.191px;
+}
+
+#box_3 i{
+    color: #FEBD45;
+    font-size: 135.191px;
+}
+
+
+#button {
+    margin-top: 15px;
+}
+
+#button_send{
+    background-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%)
+}
+
+field {
+    margin-bottom: 10px;
+}
+
+.field label {
+    display: block;
+    font-size: 12px;
+    color: #777;
+}
+
+.field input {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    color: #fff;
+    border: none
+}
+
+#Form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.Final_part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img_form img{
+    height: 550px;
+    width: 550px;
+}
+
+.Info_finaPart p{
+    font-size: 40px;
+}
+
+.Title_form h2{
+    text-align: center;
+    padding: 10px;
+}
+
+label{
+    font-size: 30px;
+}
+
+@media screen and (max-width:375px){
+    body{
+        margin:0;
+        padding:0;
+    }
+    
+    header{
+        width: 100%;
+        height: 800px;
+    }
+    .Information{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .Information h3{
+        font-size: 50px;
+        width: 250px;
+        margin-left: -180px;
+        margin-bottom: 30px;
+
+    }
+    .image img{
+        width: 350px;
+        height: 250px;
+    }
+    .Card_Information{
+        margin-bottom: -30px;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    #Service .Container{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .box{
+        margin: 20px;
+    }
+    .Info_About{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: -50px;
+    }
+    .Image img{
+        height: 400px;
+        width: 400px;
+    }
+    #Title_About{
+        text-align: center;
+    }
+    .Message{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Message p{
+        margin: 20px;
+    }
+    #msg_3{
+        left: 0;
+        bottom: 0;
+        width: 300px;
+    }
+    #msg_4{
+        left: 0;
+        width: 300px;
+    }
+    #msg_5{
+        left: 0;
+        width: 300px;
+    }
+    .Footer_message{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+    #Message_spam{
+        margin-top: 60px;
+        width: 410px;
+        font-family: Alata;
+        color: black;
+        backdrop-filter: blur(0px) saturate(200%);
+        -webkit-backdrop-filter: blur(0px) saturate(200%);
+        background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    }
+    .Footer_About{
+        width: 300px;
+        height: 30px;
+        padding: 0;
+    }
+    #send_message{
+        font-size: 30px;
+    }
+    .Final_part{
+        display: flex;
+        flex-direction: column;
+    }
+    .Info_finaPart p{
+        font-size: 30px;
+        text-align: center;
+    }
+    #img_bot{
+        width: 250px;
+        height: 250px;
+    }
+    #Form{
+        display: flex;
+        flex-direction: column;
+    }
+    .img_form img{
+        height: 300px;
+        width: 300px;
+    }
+    input{
+        width: 250px;
+    }
+}

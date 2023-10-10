@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="Title">
+                <h1>Smart Contact</h1>
+            </div>
+            <div class="navbar-list">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="Information">
+            <div class="Card_Information">
+                <div>
+                    <h3>El mejor servicio de automatizacion</h3>
+                </div>
+                <div class="Btn_Information">
+                    <button >Ir al pre-registro</button>
+                </div>
+                <div class="Arrow_continue">
+                    <a href="#Service"><i class='bx bxs-down-arrow'></i></a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./View/img/Imagen1-01.png" alt="">
+            </div>
+        </div>
+    </header>
+    <section id="Service" class="Service">
+        <div class="Container">
+            <div class="box" id="box_1">
+                <label for="">Vende</label>
+                <i class='bx bx-dollar-circle'></i>
+            </div>
+            <div class="box" id="box_2">
+                <label for="">Controla</label>
+                <i class='bx bx-objects-vertical-bottom'></i>
+            </div>
+            <div class="box" id="box_3">
+                <label for="">Optimiza</label>
+                <i class='bx bx-stopwatch'></i>
+            </div>
+        </div>
+    </section>
+    <section class="About">
+        <div class="Info_About">
+            <div class="Image">
+                <img src="./View/img/Bot_messag3-01.png" alt="Robot">
+            </div>
+            <div class="Content">
+                <div class="Title_About">
+                    <h3 id="Title_About">Smart Contact</h3>
+                </div>
+                <div class="Message">
+                    <p id="msg_1" class="Box">Te permite</p>
+                    <p id="msg_2" class="Box">Automatizar</p>
+                    <p id="msg_3" class="Box">Tus ventas y procesos logisticos</p>
+                    <p id="msg_4" class="Box">Usando la mensajeria </p>
+                    <p id="msg_5" class="Box">De tus redes sociales</p>
+                    <div class="Footer_message">
+                        <h3 class="Footer_About">
+                            Say Hello...
+                        </h3>
+                        <i id = 'send_message' class='bx bx-send'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p id="Message_spam">Unete desde ahora y se de los primeros en tener acceso a SMART CONTACT</p>
+    </section>
+    <section class="Final_part">
+        <div class="Info_finaPart">
+            <p>Da el paso que tu negocio necesita</p>
+        </div>
+        <div>
+            <img src="./View/img/Bot-01.png" id="img_bot" alt="">
+        </div>
+    </section>
+    <div class="Title_form">
+        <h2>Formulario de Pre-registro</h2>
+    </div>
+    <section id="Form">
+        <section class="img_form">
+            <img src="./View/img/Wavy_Tech-21_Single-04-[Convertido].png" alt="">
+        </section>
+        <form id="form">
+            <div class="field">
+                <label for="name">¿Como te llamas?</label>
+                <input type="text" class="form-control" name="name" id="name">
+            </div>
+            <div class="field">
+                <label for="to_email">Deja tu email</label>
+                <input type="text" class="form-control"  name="to_email" id="to_email">
+            </div>
+            <div class="field">
+                <label for="reply_to">Dejanos tu numero de contacto</label>
+                <input type="text" class="form-control"  name="cellphone" id="reply_to">
+            </div>
+            <div class="field">
+                <label for="reply_to">¿Como se llama tu negocio?</label>
+                <input type="text" class="form-control"  name="Your_Brand" id="reply_to">
+            </div>
+            <div class="field">
+                <label for="reply_to">¿Que vende tu negocio?</label>
+                <input type="text" class="form-control"  name="Sale" id="reply_to">
+            </div>
+            <input type="submit" id="button" value="Enviar mi Pre-registro" >
+            </form>
+            <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    </section>
+    <script src="main.js" type="module"></script>
+    <script type="text/javascript">
+    </script>
+</body>
+</html>
